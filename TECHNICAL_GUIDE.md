@@ -23,7 +23,7 @@
                              ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │              前端 NGINX 反向代理伺服器                           │
-│              (gua-acl.fg-retail.com.tw)                          │
+│              (gua-acl.your-domain.com)                          │
 │                                                                  │
 │  location /          → http://10.0.0.67:3000 (前端)           │
 │  location /api       → http://10.0.0.67:3001 (後端 API)        │
@@ -505,3 +505,4 @@ tail -f /var/log/nginx/guacamole-portal.error.log
 ## 12. 聯絡資訊
 
 如有技術問題或需要支援，請聯繫系統管理員。
+
